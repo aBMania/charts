@@ -88,6 +88,7 @@ The following table lists the configurable parameters of the Sonarqube chart and
 | `postgresql.postgresqlPassword`       | Postgresql database password                                                 | `sonarPass`                                    |
 | `postgresql.postgresqlDatabase`       | Postgresql database name                                                     | `sonarDB`                                      |
 | `postgresql.service.port`             | Postgresql port                                                              | `5432`                                         |
+| `postgresql.sslMode`                  | Postgresql ssl mode                                                          | None                                           |
 | `mysql.enabled`                       | Set to `false` to use external server / postgresql database                  | `false`                                        |
 | `mysql.mysqlServer`                   | Hostname of the external Mysql server                                        | `null`                                         |
 | `mysql.mysqlPasswordSecret`           | Secret containing the password of the external Mysql server                  | `null`                                         |
